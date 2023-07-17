@@ -28,7 +28,8 @@ var body: some View {
         .background(Color.yellow.opacity(0.5))
         .cornerRadius(30)
 
-
+        .padding()
+        
         if showBio {
             Text("I'm a sophmore who loves playing basketball and the violin. I am also on my school's robotics team! Outside of school I am a dedicated duck mom!")
                 .multilineTextAlignment(.center)
